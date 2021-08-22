@@ -13,6 +13,6 @@ lighting conditions [0 - bad, 1 - good]; each image has two states (bad, good) b
 sensor ID [01 - RealSense, 02 - IDS, 03 - Aptina]; at this moment, the dataset contains the images captured by three different sensors
 (Intel RealSense RS 300 sensor with 640 x 480 resolution, IDS Imaging sensor with 1280 x 1024 resolution, and Aptina sensor with 752 x 480 resolution)
 
-**Working**
+### Working
 The input is video (real time web cam) from the video face/eyes are detected and these images are fed to a deep learning model which checks if the 
 eyes are opened or closed. a timer would run and if the eyes are shut for continuous 5 seconds, the system would generate an alarm saying that the person is drowsy
